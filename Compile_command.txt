@@ -1,0 +1,4 @@
+g++ -O3 -march=native -ffast-math -flto -fopenmp -std=c++20 main.cpp -o main `pkg-config --cflags --libs sfml-graphics sfml-window sfml-system`
+
+
+this is the compile command i used , again it is specifically made like this to be efficient.
